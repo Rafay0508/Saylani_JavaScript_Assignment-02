@@ -5,7 +5,7 @@
 // Expenses is also an array of objects which has expense and description properties.
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Code: 
-class personAccount {
+//class personAccount {
 //     constructor(firstName, lastName) {
 //         this.firstName = firstName;
 //         this.lastName = lastName;
