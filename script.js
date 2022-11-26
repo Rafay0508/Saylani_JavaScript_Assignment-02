@@ -48,40 +48,53 @@
 // Create child classes of Automobile Car, Truck, Bus these classes also have extra information like doors property, maxspeed.
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Code: 
-// class automobile {
-        //     constructor(name, model, color, type) {
-        //         this.name = name;
-        //         this.model = model;
-        //         this.color = color;
-        //         this.type = type;
-        //     }
-        //     start = () => console.log("car is ready for drive");
-        //     opendoor = () => console.log("door is open");
-        // }
-        // class Car extends automobile {
-        //     constructor(name, model, color, type, doors, property, maxspeed) {
-        //         super(name, model, color, type)
-        //         this.doors = doors;
-        //         this.property = property;
-        //         this.maxspeed = maxspeed;
-        //     }
-        // }
-        // class Truck extends automobile {
-        //     constructor(name, model, color, type, doors, property, maxspeed) {
-        //         super(name, model, color, type)
-        //         this.doors = doors;
-        //         this.property = property;
-        //         this.maxspeed = maxspeed;
-        //     }
-        // }
-        // class Bus extends automobile {
-        //     constructor(name, model, color, type, doors, property, maxspeed) {
-        //         super(name, model, color, type)
-        //         this.doors = doors;
-        //         this.property = property;
-        //         this.maxspeed = maxspeed;
-        //     }
-        // }
+// class AutoMobile {
+//     constructor(name, model, color, type) {
+//         this.name = name;
+//         this.model = model;
+//         this.color = color;
+//         this.type = type;
+//     }
+//     Start() {
+//         console.log("Car is ready for drive")
+//     }
+//     openDoor() {
+//         console.log("Door is open");
+//     }
 
-        // truck1 = new Truck('Cyber truck', 2020, 'silver', 'Al Controlled', 4, 'Tesla', 120);
-        // console.log(truck1);
+// }
+
+// class Car extends AutoMobile {
+//     constructor(name, model, color, type, door, maxSpeed) {
+//         super(name, model, color, type);
+//         this.door = door;
+//         this.maxSpeed = maxSpeed;
+//     }
+
+
+// }
+// class Truck extends AutoMobile {
+//     constructor(name, model, color, type, door, maxSpeed) {
+//         super(name, model, color, type);
+//         this.door = door;
+//         this.maxSpeed = maxSpeed;
+//     }
+
+
+// }
+// class Bus extends AutoMobile {
+//     constructor(name, model, color, type, door, maxSpeed) {
+//         super(name, model, color, type);
+//         this.door = door;
+//         this.maxSpeed = maxSpeed;
+//     }
+
+
+// }
+
+
+// let car1 = new Car("cultus", 2020, "white", "automatic", "four", "120KM/H");
+// let truck1 = new Truck("Cyber Truck", 2022, "Grey", "automatic", "two", "250KM/H");
+
+// console.log(truck1.door)
+// car1.Start();
