@@ -5,33 +5,41 @@
 // Expenses is also an array of objects which has expense and description properties.
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Code: 
-// class personAccount {
-        //     constructor(fName, lName, income, incomeDesc, expense, expenseDesc) {
-        //         this.firstName = fName;
-        //         this.lastName = lName;
-        //         this.incomes =
-        //             [
-        //                 {
-        //                     income,
-        //                     incomeDesc
-        //                 }
-        //             ];
-        //         this.expenses =
-        //             [
-        //                 {
-        //                     expense,
-        //                     expenseDesc
-        //                 }
-        //             ];
-        //     }
-        //     totalIncome = () => console.log("total income");
-        //     totalExpenses = () => console.log("total expenses");
-        //     addIncome = () => console.log("add income");
-        //     accountBalance = ()=>console.log("account Balance");
+class personAccount {
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.Incomes = {
+//             income: "Salary",
+//             discription: "Monthly"
+//         };
+//         this.expenses = {
+//             expense: "Cleaning",
+//             discription: "Monthly"
+//         };
+//     }
+//     totalIncome() {
+//         console.log("total income");
+//     }
+//     totalExpense() {
+//         console.log("total expenses");
+//     }
+//     addIncome() {
+//         console.log("add income");
+//     }
+//     addExpense() {
+//         console.log("add expenses");
+//     }
+//     accountBalance() {
+//         console.log("account balance");
+//     }
 
-        // }
-        // let emp1 = new personAccount('Abdul', 'Rafay', 50000, 'monthly', 10000, 'travel');
-        // console.log(emp1);
+// }
+
+// let emp1 = new personAccount("abdul", "rafay");
+
+// console.log(emp1);
+// emp1.addExpense();
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
